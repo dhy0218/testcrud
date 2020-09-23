@@ -16,6 +16,13 @@ public class UserController {
     @Autowired
     UserService userService;
 
+    @RequestMapping("/")
+    @ResponseBody
+    public String testIt()
+    {
+        return "success";
+    }
+
     @RequestMapping(value = "/testFindAll" )
     @ResponseBody
     public List<User> findAlltest() throws SQLException {
@@ -43,6 +50,7 @@ public class UserController {
         userService.insertIntoUser(user);
         return "success";
     }
+
 
     @RequestMapping(value = "/testDelete")
     @ResponseBody
