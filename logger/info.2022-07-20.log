@@ -1,0 +1,107 @@
+2022-07-20 18:11:50 [ restartedMain:1198 ] - [ INFO ] Starting DemotestcrudApplication on LAPTOP-R6NCC62U with PID 14908 (D:\idea\ideaproject\demo01\testcrud\target\classes started by 董航云的matebook14 in D:\idea\ideaproject\demo01\testcrud)
+2022-07-20 18:11:50 [ restartedMain:1201 ] - [ INFO ] No active profile set, falling back to default profiles: default
+2022-07-20 18:11:50 [ restartedMain:1277 ] - [ INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-20 18:11:50 [ restartedMain:1278 ] - [ INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-20 18:11:52 [ restartedMain:2869 ] - [ INFO ] Tomcat initialized with port(s): 8080 (http)
+2022-07-20 18:11:52 [ restartedMain:2926 ] - [ INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-20 18:11:52 [ restartedMain:2928 ] - [ INFO ] Starting service [Tomcat]
+2022-07-20 18:11:52 [ restartedMain:2929 ] - [ INFO ] Starting Servlet engine: [Apache Tomcat/9.0.38]
+2022-07-20 18:11:52 [ restartedMain:3074 ] - [ INFO ] Initializing Spring embedded WebApplicationContext
+2022-07-20 18:11:52 [ restartedMain:3075 ] - [ INFO ] Root WebApplicationContext: initialization completed in 1797 ms
+2022-07-20 18:11:53 [ restartedMain:3696 ] - [ INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-20 18:11:53 [ restartedMain:4104 ] - [ INFO ] LiveReload server is running on port 35729
+2022-07-20 18:11:53 [ restartedMain:4123 ] - [ INFO ] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-20 18:11:53 [ restartedMain:4149 ] - [ INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-20 18:11:53 [ restartedMain:4164 ] - [ INFO ] Started DemotestcrudApplication in 3.675 seconds (JVM running for 4.98)
+2022-07-20 18:12:45 [ http-nio-8080-exec-2:56597 ] - [ INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-20 18:12:45 [ http-nio-8080-exec-2:56598 ] - [ INFO ] Initializing Servlet 'dispatcherServlet'
+2022-07-20 18:12:45 [ http-nio-8080-exec-2:56608 ] - [ INFO ] Completed initialization in 10 ms
+2022-07-20 18:12:46 [ http-nio-8080-exec-2:56644 ] - [ INFO ] testTask start
+2022-07-20 18:12:46 [ http-nio-8080-exec-2:56675 ] - [ INFO ] HikariPool-1 - Starting...
+2022-07-20 18:12:47 [ http-nio-8080-exec-2:58140 ] - [ INFO ] HikariPool-1 - Start completed.
+2022-07-20 18:12:47 [ http-nio-8080-exec-2:58233 ] - [ INFO ] testTask finish
+2022-07-20 18:12:47 [ http-nio-8080-exec-2:58235 ] - [ INFO ] StopWatch '': running time = 1587230300 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+1587230300  100%  testTask
+
+2022-07-20 18:12:47 [ http-nio-8080-exec-2:58235 ] - [ INFO ] 1587
+2022-07-20 18:25:28 [ restartedMain:1058 ] - [ INFO ] Starting DemotestcrudApplication on LAPTOP-R6NCC62U with PID 5928 (D:\idea\ideaproject\demo01\testcrud\target\classes started by 董航云的matebook14 in D:\idea\ideaproject\demo01\testcrud)
+2022-07-20 18:25:28 [ restartedMain:1061 ] - [ INFO ] No active profile set, falling back to default profiles: default
+2022-07-20 18:25:28 [ restartedMain:1145 ] - [ INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-20 18:25:28 [ restartedMain:1146 ] - [ INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-20 18:25:32 [ restartedMain:4363 ] - [ INFO ] Tomcat initialized with port(s): 8080 (http)
+2022-07-20 18:25:32 [ restartedMain:4389 ] - [ INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-20 18:25:32 [ restartedMain:4390 ] - [ INFO ] Starting service [Tomcat]
+2022-07-20 18:25:32 [ restartedMain:4391 ] - [ INFO ] Starting Servlet engine: [Apache Tomcat/9.0.38]
+2022-07-20 18:25:32 [ restartedMain:4629 ] - [ INFO ] Initializing Spring embedded WebApplicationContext
+2022-07-20 18:25:32 [ restartedMain:4631 ] - [ INFO ] Root WebApplicationContext: initialization completed in 3485 ms
+2022-07-20 18:25:34 [ restartedMain:6757 ] - [ INFO ] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-20 18:25:34 [ restartedMain:6776 ] - [ WARN ] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'docket' defined in class path resource [com/example/demo/configuration/SwaggerConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [springfox.documentation.spring.web.plugins.Docket]: Factory method 'docket' threw exception; nested exception is java.lang.IllegalArgumentException: Invalid profile expression []: must contain text
+2022-07-20 18:25:34 [ restartedMain:6792 ] - [ INFO ] Stopping service [Tomcat]
+2022-07-20 18:25:34 [ restartedMain:6827 ] - [ INFO ] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-20 18:28:12 [ restartedMain:1087 ] - [ INFO ] Starting DemotestcrudApplication on LAPTOP-R6NCC62U with PID 7616 (D:\idea\ideaproject\demo01\testcrud\target\classes started by 董航云的matebook14 in D:\idea\ideaproject\demo01\testcrud)
+2022-07-20 18:28:12 [ restartedMain:1092 ] - [ INFO ] No active profile set, falling back to default profiles: default
+2022-07-20 18:28:13 [ restartedMain:1168 ] - [ INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-20 18:28:13 [ restartedMain:1168 ] - [ INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-20 18:28:15 [ restartedMain:3219 ] - [ INFO ] Tomcat initialized with port(s): 8080 (http)
+2022-07-20 18:28:15 [ restartedMain:3241 ] - [ INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-20 18:28:15 [ restartedMain:3243 ] - [ INFO ] Starting service [Tomcat]
+2022-07-20 18:28:15 [ restartedMain:3244 ] - [ INFO ] Starting Servlet engine: [Apache Tomcat/9.0.38]
+2022-07-20 18:28:15 [ restartedMain:3437 ] - [ INFO ] Initializing Spring embedded WebApplicationContext
+2022-07-20 18:28:15 [ restartedMain:3438 ] - [ INFO ] Root WebApplicationContext: initialization completed in 2270 ms
+2022-07-20 18:28:16 [ restartedMain:4392 ] - [ INFO ] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-20 18:28:16 [ restartedMain:4399 ] - [ WARN ] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'docket' defined in class path resource [com/example/demo/configuration/SwaggerConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [springfox.documentation.spring.web.plugins.Docket]: Factory method 'docket' threw exception; nested exception is java.lang.IllegalArgumentException: Invalid profile expression []: must contain text
+2022-07-20 18:28:16 [ restartedMain:4404 ] - [ INFO ] Stopping service [Tomcat]
+2022-07-20 18:28:16 [ restartedMain:4423 ] - [ INFO ] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-20 18:28:50 [ restartedMain:1167 ] - [ INFO ] Starting DemotestcrudApplication on LAPTOP-R6NCC62U with PID 17788 (D:\idea\ideaproject\demo01\testcrud\target\classes started by 董航云的matebook14 in D:\idea\ideaproject\demo01\testcrud)
+2022-07-20 18:28:50 [ restartedMain:1171 ] - [ INFO ] No active profile set, falling back to default profiles: default
+2022-07-20 18:28:50 [ restartedMain:1253 ] - [ INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-20 18:28:50 [ restartedMain:1253 ] - [ INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-20 18:28:52 [ restartedMain:3407 ] - [ INFO ] Tomcat initialized with port(s): 8080 (http)
+2022-07-20 18:28:52 [ restartedMain:3423 ] - [ INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-20 18:28:52 [ restartedMain:3424 ] - [ INFO ] Starting service [Tomcat]
+2022-07-20 18:28:52 [ restartedMain:3425 ] - [ INFO ] Starting Servlet engine: [Apache Tomcat/9.0.38]
+2022-07-20 18:28:52 [ restartedMain:3537 ] - [ INFO ] Initializing Spring embedded WebApplicationContext
+2022-07-20 18:28:52 [ restartedMain:3537 ] - [ INFO ] Root WebApplicationContext: initialization completed in 2284 ms
+2022-07-20 18:28:53 [ restartedMain:4458 ] - [ INFO ] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-20 18:28:53 [ restartedMain:4466 ] - [ WARN ] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'docket' defined in class path resource [com/example/demo/configuration/SwaggerConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [springfox.documentation.spring.web.plugins.Docket]: Factory method 'docket' threw exception; nested exception is java.lang.IllegalArgumentException: Invalid profile expression []: must contain text
+2022-07-20 18:28:53 [ restartedMain:4472 ] - [ INFO ] Stopping service [Tomcat]
+2022-07-20 18:28:53 [ restartedMain:4486 ] - [ INFO ] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-20 18:31:14 [ restartedMain:966 ] - [ INFO ] Starting DemotestcrudApplication on LAPTOP-R6NCC62U with PID 16496 (D:\idea\ideaproject\demo01\testcrud\target\classes started by 董航云的matebook14 in D:\idea\ideaproject\demo01\testcrud)
+2022-07-20 18:31:14 [ restartedMain:970 ] - [ INFO ] No active profile set, falling back to default profiles: default
+2022-07-20 18:31:14 [ restartedMain:1041 ] - [ INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-20 18:31:14 [ restartedMain:1042 ] - [ INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-20 18:31:16 [ restartedMain:3416 ] - [ INFO ] Tomcat initialized with port(s): 8080 (http)
+2022-07-20 18:31:16 [ restartedMain:3437 ] - [ INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-20 18:31:16 [ restartedMain:3438 ] - [ INFO ] Starting service [Tomcat]
+2022-07-20 18:31:16 [ restartedMain:3439 ] - [ INFO ] Starting Servlet engine: [Apache Tomcat/9.0.38]
+2022-07-20 18:31:16 [ restartedMain:3586 ] - [ INFO ] Initializing Spring embedded WebApplicationContext
+2022-07-20 18:31:16 [ restartedMain:3587 ] - [ INFO ] Root WebApplicationContext: initialization completed in 2545 ms
+2022-07-20 18:31:17 [ restartedMain:4749 ] - [ INFO ] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-20 18:31:18 [ restartedMain:4977 ] - [ INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-20 18:31:18 [ restartedMain:5102 ] - [ INFO ] LiveReload server is running on port 35729
+2022-07-20 18:31:18 [ restartedMain:5430 ] - [ INFO ] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-20 18:31:18 [ restartedMain:5465 ] - [ INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-20 18:31:18 [ restartedMain:5466 ] - [ INFO ] Context refreshed
+2022-07-20 18:31:18 [ restartedMain:5545 ] - [ INFO ] Found 1 custom documentation plugin(s)
+2022-07-20 18:31:18 [ restartedMain:5613 ] - [ INFO ] Scanning for api listing references
+2022-07-20 18:31:18 [ restartedMain:5883 ] - [ INFO ] Generating unique operation named: findAlltestUsingGET_1
+2022-07-20 18:31:19 [ restartedMain:5885 ] - [ INFO ] Generating unique operation named: findAlltestUsingHEAD_1
+2022-07-20 18:31:19 [ restartedMain:5887 ] - [ INFO ] Generating unique operation named: findAlltestUsingPOST_1
+2022-07-20 18:31:19 [ restartedMain:5889 ] - [ INFO ] Generating unique operation named: findAlltestUsingPUT_1
+2022-07-20 18:31:19 [ restartedMain:5890 ] - [ INFO ] Generating unique operation named: findAlltestUsingPATCH_1
+2022-07-20 18:31:19 [ restartedMain:5892 ] - [ INFO ] Generating unique operation named: findAlltestUsingDELETE_1
+2022-07-20 18:31:19 [ restartedMain:5894 ] - [ INFO ] Generating unique operation named: findAlltestUsingOPTIONS_1
+2022-07-20 18:31:19 [ restartedMain:5896 ] - [ INFO ] Generating unique operation named: findAlltestUsingTRACE_1
+2022-07-20 18:31:19 [ restartedMain:5970 ] - [ INFO ] Started DemotestcrudApplication in 5.659 seconds (JVM running for 6.678)
+2022-07-20 18:31:31 [ http-nio-8080-exec-1:18469 ] - [ INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-20 18:31:31 [ http-nio-8080-exec-1:18469 ] - [ INFO ] Initializing Servlet 'dispatcherServlet'
+2022-07-20 18:31:31 [ http-nio-8080-exec-1:18486 ] - [ INFO ] Completed initialization in 17 ms
